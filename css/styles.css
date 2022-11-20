@@ -207,7 +207,7 @@ hr {
   color: #EAF6F6;
 }
 
-header {
+nav {
   background-color: #A27B5C;
   display: flex;
   justify-content: space-between;
@@ -215,7 +215,7 @@ header {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.links a {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   color: #f2f2f2;
@@ -226,7 +226,7 @@ header {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.links a:hover {
   background-color: #DCD7C9;
   color: black;
   text-decoration: underline;
