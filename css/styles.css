@@ -450,5 +450,40 @@ header {
   margin: 3rem auto;
   padding-bottom: 3rem;
   text-align: left;
+}
 
+.first-row {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+
+.first-row img {
+  margin: 3rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.second-row {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+
+.second-row img {
+  margin: 3rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.third-row {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+
+.third-row img {
+  margin: 3rem;
+  max-width: 100%;
+  max-height: 100%;
 }
