@@ -28,45 +28,45 @@
 
   <body>
 
-    <header>
-
-      <div class="wave">
-        <span style="--i:1">K</span>
-        <span style="--i:2">R</span>
-        <span style="--i:3">I</span>
-        <span style="--i:4">T</span>
-        <span style="--i:5">&nbsp;</span>
-        <span style="--i:6">G</span>
-        <span style="--i:7">R</span>
-        <span style="--i:8">O</span>
-        <span style="--i:9">V</span>
-        <span style="--i:10">E</span>
-        <span style="--i:11">R</span>
-      </div>
-
       <nav class="topnav">
+
+        <div class="wave">
+          <span style="--i:1">K</span>
+          <span style="--i:2">R</span>
+          <span style="--i:3">I</span>
+          <span style="--i:4">T</span>
+          <span style="--i:5">&nbsp;</span>
+          <span style="--i:6">G</span>
+          <span style="--i:7">R</span>
+          <span style="--i:8">O</span>
+          <span style="--i:9">V</span>
+          <span style="--i:10">E</span>
+          <span style="--i:11">R</span>
+        </div>
+
         <div class="links">
           <a href="index.html">Home</a>
           <a href="about-me.html">About</a>
           <a href="contact.html">Contact</a>
         </div>
+
+        <div class="socials">
+          <a href="https://instagram.com/_krizgrover_" target="_blank"><img src="images/instagram.png" alt="instagram-logo"></a>
+          <a href="https://github.com/kritgrover" target="_blank"><img src="images/github.png" alt="github-logo"></a>
+          <a href="https://www.linkedin.com/in/krit-grover-59a10123b/" target="_blank"><img src="images/linkedin.png" alt="linkedin-logo"></a>
+        </div>
+
       </nav>
-
-      <div class="socials">
-        <a href="https://instagram.com/_krizgrover_" target="_blank"><img src="images/instagram.png" alt="instagram-logo"></a>
-        <a href="https://github.com/kritgrover" target="_blank"><img src="images/github.png" alt="github-logo"></a>
-        <a href="https://www.linkedin.com/in/krit-grover-59a10123b/" target="_blank"><img src="images/linkedin.png" alt="linkedin-logo"></a>
-      </div>
-
-    </header>
 
     <main>
 
       <section id="home" class="top-container">
+
         <div class="title-text">
           <h1>Hey! I'm Krit.</h1>
-          <h2>a <span class="pro">stu</span>dent</h2>
+          <h2>a <span class="pro">student</span>.</h2>
         </div>
+
         <img class="top-cloud" src="images/cloud.png" alt="cloud">
         <img class="mountain" src="images/mountain.png" alt="mountain-img">
         <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
@@ -84,7 +84,9 @@
             progress throughout.</p>
 
           <div class="process-wrapper">
+
             <div id="progress-bar-container">
+
               <ul>
                 <li class="step step01 active"><div class="step-inner">Graphic Design</div></li>
                 <li class="step step02 active"><div class="step-inner">Certifications</div></li>
@@ -96,6 +98,7 @@
               <div id="line">
                 <div id="line-progress"></div>
               </div>
+
             </div>
 
             <div id="progress-content-section">
@@ -156,7 +159,6 @@
                   It is hands down my greatest achievement till date, and it's something I'm really proud of. All that
                   effort I had put in over the past couple years, had finally paid off.
                 </p>
-
               </div>
 
               <div class="section-content analysis active">
@@ -172,7 +174,6 @@
 
                 <p>Lastly, I am working towards attending and winning a lot more hackathons in the coming months, and I
                   hope to gain a lot from them as they come. </p>
-
               </div>
             </div>
           </div>
@@ -206,11 +207,11 @@
         <hr>
 
         <div id="projects" class="projects">
+
           <h2>My Projects</h2>
 
           <div class="skill-row">
             <img class="code-img" src="images/steganography.png" alt="steganography-img">
-
             <h3>Steganography</h3>
             <p>The art of hiding messages within images. This project was made using Kotlin and lets the user store a
             secret message in an image. The message is also encrypted with a password, and can only be retrieved with
@@ -221,24 +222,20 @@
 
           <div class="skill-row">
             <img class="paint-img" src="images/text-editor.png" alt="text-editor-img">
-
             <h3>Text Editor</h3>
             <p>A notepad-like text editor that can be used to find occurrences of a particular word in the document.
             Created using Java and Swing. Supported file formats include, .txt, .csv, .rtf, .json, .md, etc. The
-              <a class="repo" href="https://github.com/kritgrover/steganography/blob/master/README.md" target="_blank">
+              <a class="repo" href="https://github.com/kritgrover/basic-text-editor/blob/master/README.md" target="_blank">
                 GitHub repository</a> contains images showing the basic functionality of the app.</p>
-
           </div>
 
           <div class="skill-row">
             <img class="code-img" src="images/path.png" alt="path-img">
-
             <h3>Path Finding</h3>
             <p>A simple application of path finding that involves generation of a random maze of given dimensions and
             finds the escape using Prim's Algorithm. Generated maze can be saved to a file. Take a look at the
             implementation <a class="repo" href="https://github.com/kritgrover/path-finding/blob/master/README.md">here
             </a>.</p>
-
           </div>
 
         </div>
@@ -251,7 +248,6 @@
     <footer class="bottom-container">
       <p class="copyright">© 2022 Krit Grover</p>
     </footer>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -287,8 +283,8 @@
         $(".analysis").addClass("active").siblings().removeClass("active");
       });
 
-
     </script>
+
   </body>
 
 </html>
