@@ -817,7 +817,7 @@ nav {
 
   .mob img {
     margin: 4rem 2rem;
-    max-width: 40%;
+    max-width: 35%;
     max-height: 100%;
   }
 
@@ -874,7 +874,7 @@ nav {
   }
 }
 
-@media (min-width: 1010px) and (max-width: 1600px){
+@media (min-width: 1010px) and (max-width: 1500px){
 
   h1 {
     font-size: 3.8rem;
@@ -927,7 +927,7 @@ nav {
 
   .mob img {
     margin: 4rem 2rem;
-    max-width: 40%;
+    max-width: 35%;
     max-height: 100%;
   }
 }
