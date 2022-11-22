@@ -17,7 +17,7 @@ body {
 
 h1 {
   color: #DAB88B;
-  font-size: 5vw;
+  font-size: 5rem;
   margin: 0 auto;
   font-family: 'Parisienne', cursive;
 }
@@ -25,14 +25,14 @@ h1 {
 h2 {
   color: #DAB88B;
   font-family: 'Cookie', sans-serif;
-  font-size: 4vw;
+  font-size: 4rem;
   font-weight: normal;
 }
 
 .top-container h2 {
   color: #DAB88B;
   font-family: 'Cookie', sans-serif;
-  font-size: 3vw;
+  font-size: 3rem;
   font-weight: normal;
 }
 
@@ -234,7 +234,10 @@ nav {
 }
 
 .socials {
-  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 2rem;
 }
 
 .socials img{
@@ -327,7 +330,7 @@ nav {
   position:absolute;
   width:100%;
   bottom:0;
-  font-size: 14px;
+  font-size: 1rem;
   color: #3C2317;
 }
 
@@ -439,38 +442,130 @@ nav {
   text-align: left;
 }
 
-.first-row {
-  display: flex;
-  height: 500px;
-  justify-content: center;
+.first-row , .second-row, .third-row {
+  display: block;
+  height: 60vh;
+  margin: 6rem;
 }
 
-.first-row img {
+.first-row img, .second-row img, .third-row img {
   margin: 3rem;
   max-width: 100%;
   max-height: 100%;
 }
 
-.second-row {
-  display: flex;
-  height: 500px;
-  justify-content: center;
-}
+@media (max-width: 480px) {
 
-.second-row img {
-  margin: 3rem;
-  max-width: 100%;
-  max-height: 100%;
-}
+  h1 {
+    font-size: 3rem;
+  }
 
-.third-row {
-  display: flex;
-  height: 500px;
-  justify-content: center;
-}
+  h2 {
+    font-size: 3rem;
+  }
 
-.third-row img {
-  margin: 3rem;
-  max-width: 100%;
-  max-height: 100%;
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .kriz-image {
+    width: 50%;
+    margin: 1.5rem auto;
+    float: none;
+    border-radius: 8%;
+  }
+
+  hr {
+    margin: 4rem auto;
+    width: 7%;
+  }
+
+  .intro-head {
+    width: 60%;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .intro {
+    width: 70%;
+  }
+
+  .top-container h2 {
+    font-size: 2rem;
+  }
+
+  .wave {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links a {
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.3rem;
+    justify-content: center;
+  }
+
+  .first-row , .third-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+  }
+
+  .second-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+  }
+
+  .first-row img, .second-row img, .third-row img {
+    margin: 2rem;
+  }
+
+  .projects img {
+    width: 23%;
+  }
+
+  .paint-img {
+    float: left;
+    margin: 2rem 2rem 2rem 0;
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+  }
+
+  .socials img {
+    margin: 0.5rem;
+    padding: 0;
+    width: 1.5rem;
+  }
+
+  #progress-bar-container li .step-inner {
+    font-size: 0.6rem;
+  }
+
+  .mountain {
+    width: 15rem;
+  }
 }
