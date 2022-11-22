@@ -483,6 +483,10 @@ nav {
     text-align: center;
   }
 
+  .contact-message {
+    width: 60%;
+  }
+
   .intro {
     width: 70%;
   }
@@ -624,6 +628,10 @@ nav {
     width: 70%;
   }
 
+  .contact-message {
+    width: 60%;
+  }
+
   .top-container h2 {
     font-size: 2rem;
   }
@@ -757,6 +765,10 @@ nav {
   }
 
   .intro {
+    width: 60%;
+  }
+
+  .contact-message {
     width: 60%;
   }
 
