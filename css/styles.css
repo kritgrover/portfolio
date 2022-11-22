@@ -83,17 +83,6 @@ hr {
   margin: 6rem auto;
 }
 
-.bottom-container a{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 0.625rem 1.25rem;
-  text-decoration: none;
-}
-
-.bottom-container a:hover {
-  color: #EAF6F6;
-}
-
 .top-container {
   background-color: #F7ECDE;
   position: relative;
@@ -111,12 +100,11 @@ hr {
 
 .skills {
   clear: left;
-  margin-top: 10rem;
 }
 
 .skill-row {
   width: 50%;
-  margin: 6.25rem auto 6.25rem auto;
+  margin: 6.25rem auto;
   text-align: left;
 }
 
@@ -442,6 +430,10 @@ nav {
   text-align: left;
 }
 
+.mob {
+  display: none;
+}
+
 .first-row , .second-row, .third-row {
   display: flex;
   justify-content: center;
@@ -452,9 +444,10 @@ nav {
 .first-row img, .second-row img, .third-row img {
   margin: 3rem;
   max-width: 100%;
+  max-height: 100%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 440px) {
 
   h1 {
     font-size: 3rem;
@@ -522,22 +515,21 @@ nav {
     justify-content: center;
   }
 
-  .first-row , .third-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 50vh;
+  .posters {
+    display: none;
   }
 
-  .second-row {
+  .mob {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: space-around;
-    height: 100vh;
+
   }
 
-  .first-row img, .second-row img, .third-row img {
-    margin: 2rem;
+  .mob img {
+    margin: 4rem;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .projects img {
@@ -570,6 +562,300 @@ nav {
   }
 
   .mountain {
-    width: 15rem;
+    width: 50%;
   }
+
+  .skill-row {
+    width: 70%;
+  }
+
+  .timeline-para {
+    width: 70%;
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .bottom-container {
+    padding: 1.125rem 0 1.25rem;
+    margin: 0;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 768px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 3.3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .kriz-image {
+    width: 40%;
+    margin: 1.5rem auto;
+    float: none;
+    border-radius: 8%;
+  }
+
+  hr {
+    margin: 4rem auto;
+    width: 7%;
+  }
+
+  .intro-head {
+    width: 60%;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .intro {
+    width: 70%;
+  }
+
+  .top-container h2 {
+    font-size: 2rem;
+  }
+
+  .wave {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links a {
+    font-size: 0.9rem;
+    display: flex;
+    padding: 1.8rem;
+    justify-content: center;
+  }
+
+  .posters {
+    display: none;
+  }
+
+  .mob {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  .mob img {
+    margin: 4rem 2rem;
+    max-width: 60%;
+    max-height: 100%;
+  }
+
+  .projects img {
+    width: 23%;
+  }
+
+  .code-img {
+    margin: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+  .paint-img {
+    float: left;
+    margin: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+  .socials {
+    margin: 1rem 0;
+    display: block;
+  }
+
+  .socials img {
+    margin: 0.5rem;
+    padding: 0;
+    width: 1.5rem;
+  }
+
+  #progress-bar-container li .step-inner {
+    font-size: 0.6rem;
+  }
+
+  .mountain {
+    width: 60%;
+  }
+
+  .skill-row {
+    width: 70%;
+  }
+
+  .timeline-para {
+    width: 70%;
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .bottom-container {
+    padding: 1.125rem 0 1.25rem;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1008px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .kriz-image {
+    width: 35%;
+    margin: 2rem auto;
+    float: none;
+    border-radius: 12%;
+  }
+
+  hr {
+    margin: 4rem auto;
+    width: 9%;
+  }
+
+  .intro-head {
+    width: 70%;
+    margin: 1rem;
+    text-align: center;
+    float: none;
+  }
+
+  .intro {
+    width: 60%;
+  }
+
+  .top-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .wave {
+    font-size: 1.3rem;
+    padding: 0 1.7rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links a {
+    font-size: 0.9rem;
+    display: flex;
+    padding: 2.2rem;
+    justify-content: center;
+  }
+
+  .posters {
+    display: none;
+  }
+
+  .mob {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .mob img {
+    margin: 4rem 2rem;
+    max-width: 40%;
+    max-height: 100%;
+  }
+
+  .projects img {
+    width: 13%;
+  }
+
+  .code-img {
+    width: 13%;
+    margin: 1.8rem 1.8rem 1.8rem 0;
+  }
+
+  .paint-img {
+    width: 13%;
+    margin: 1.8rem 0 1.8rem 1.8rem;
+  }
+
+  .socials {
+    margin: 1rem 0;
+    display: block;
+  }
+
+  .socials img {
+    margin: 0.5rem;
+    padding: 0;
+    width: 1.8rem;
+  }
+
+  #progress-bar-container li .step-inner {
+    font-size: 0.6rem;
+  }
+
+  .mountain {
+    width: 60%;
+  }
+
+  .skill-row {
+    width: 60%;
+  }
+
+  .timeline-para {
+    width: 60%;
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .bottom-container {
+    padding: 1.125rem 0 1.25rem;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
 }
