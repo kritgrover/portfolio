@@ -177,6 +177,11 @@ hr {
   text-decoration: none;
 }
 
+.profile {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
 .btn:hover {
   background: #30e3cb linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
@@ -427,7 +432,7 @@ nav {
   width: 50%;
   margin: 3rem auto;
   padding-bottom: 3rem;
-  text-align: left;
+  text-align: center;
 }
 
 .mob {
@@ -450,11 +455,11 @@ nav {
 @media (max-width: 440px) {
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   h3 {
@@ -728,7 +733,7 @@ nav {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1008px) {
+@media (min-width: 768px) and (max-width: 1010px) {
   h1 {
     font-size: 3.5rem;
   }
@@ -858,9 +863,6 @@ nav {
     text-align: center;
   }
 
-  .top-cloud {
-    left: 80%;
-  }
 
   .intro {
     text-align: center;
@@ -872,6 +874,60 @@ nav {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1010px) and (max-width: 1600px){
 
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h2 {
+    font-size: 3.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+
+  .profile {
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+
+  .kriz-image {
+    width: 20rem;
+    margin: 0 3rem;
+  }
+
+  .intro-head {
+    width: 80%;
+    text-align: center;
+  }
+
+  .intro {
+    width: 58%;
+    font-size: 1.1rem;
+    clear: left;
+  }
+
+  .posters {
+    display: none;
+  }
+
+  .mob {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .mob img {
+    margin: 4rem 2rem;
+    max-width: 40%;
+    max-height: 100%;
+  }
 }
