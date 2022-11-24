@@ -452,436 +452,14 @@ nav {
   max-height: 100%;
 }
 
-@media (max-width: 440px) {
-
-  h1 {
-    font-size: 2.6rem;
-  }
-
-  h2 {
-    font-size: 2.6rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  .kriz-image {
-    width: 50%;
-    margin: 1.5rem auto;
-    float: none;
-    border-radius: 8%;
-  }
-
-  hr {
-    margin: 4rem auto;
-    width: 7%;
-  }
-
-  .intro-head {
-    width: 60%;
-    margin: 1rem;
-    text-align: center;
-  }
-
-  .contact-message {
-    width: 60%;
-  }
-
-  .intro {
-    width: 70%;
-  }
-
-  .top-container h2 {
-    font-size: 2rem;
-  }
-
-  .wave {
-    font-size: 1rem;
-    padding: 0 1rem;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .links a {
-    font-size: 0.8rem;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.3rem;
-    justify-content: center;
-  }
-
-  .posters {
-    display: none;
-  }
-
-  .mob {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-  }
-
-  .mob img {
-    margin: 4rem;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .projects img {
-    width: 23%;
-  }
-
-  .code-img {
-    margin: 1.5rem 1.5rem 1.5rem 0;
-  }
-
-  .paint-img {
-    float: left;
-    margin: 1.5rem 1.5rem 1.5rem 0;
-  }
-
-  .socials {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-  }
-
-  .socials img {
-    margin: 0.5rem;
-    padding: 0;
-    width: 1.5rem;
-  }
-
-  #progress-bar-container li .step-inner {
-    font-size: 0.6rem;
-  }
-
-  .mountain {
-    width: 50%;
-  }
-
-  .skill-row {
-    width: 70%;
-  }
-
-  .timeline-para {
-    width: 70%;
-    text-align: center;
-  }
-
-  .intro {
-    text-align: center;
-  }
-
-  .bottom-container {
-    padding: 1.125rem 0 1.25rem;
-    margin: 0;
-  }
-}
-
-@media (min-width: 440px) and (max-width: 768px) {
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 3.3rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  .kriz-image {
-    width: 40%;
-    margin: 1.5rem auto;
-    float: none;
-    border-radius: 8%;
-  }
-
-  hr {
-    margin: 4rem auto;
-    width: 7%;
-  }
-
-  .intro-head {
-    width: 60%;
-    margin: 1rem;
-    text-align: center;
-  }
-
-  .intro {
-    width: 70%;
-  }
-
-  .contact-message {
-    width: 60%;
-  }
-
-  .top-container h2 {
-    font-size: 2rem;
-  }
-
-  .wave {
-    font-size: 1rem;
-    padding: 0 1rem;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .links a {
-    font-size: 0.9rem;
-    display: flex;
-    padding: 1.8rem;
-    justify-content: center;
-  }
-
-  .posters {
-    display: none;
-  }
-
-  .mob {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-  }
-
-  .mob img {
-    margin: 4rem 2rem;
-    max-width: 60%;
-    max-height: 100%;
-  }
-
-  .projects img {
-    width: 23%;
-  }
-
-  .code-img {
-    margin: 1.5rem 1.5rem 1.5rem 0;
-  }
-
-  .paint-img {
-    float: left;
-    margin: 1.5rem 1.5rem 1.5rem 0;
-  }
-
-  .socials {
-    margin: 1rem 0;
-    display: block;
-  }
-
-  .socials img {
-    margin: 0.5rem;
-    padding: 0;
-    width: 1.5rem;
-  }
-
-  #progress-bar-container li .step-inner {
-    font-size: 0.6rem;
-  }
-
-  .mountain {
-    width: 60%;
-  }
-
-  .skill-row {
-    width: 70%;
-  }
-
-  .timeline-para {
-    width: 70%;
-    text-align: center;
-  }
-
-  .intro {
-    text-align: center;
-  }
-
-  .bottom-container {
-    padding: 1.125rem 0 1.25rem;
-    margin: 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1010px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  h2 {
-    font-size: 3.5rem;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 1.1rem;
-  }
-
-  .kriz-image {
-    width: 38%;
-    margin: 2rem auto;
-    float: none;
-    border-radius: 12%;
-  }
-
-  hr {
-    margin: 4rem auto;
-    width: 9%;
-  }
-
-  .intro-head {
-    width: 70%;
-    margin: 1rem;
-    text-align: center;
-    float: none;
-  }
-
-  .intro {
-    width: 70%;
-  }
-
-  .contact-message {
-    width: 60%;
-  }
-
-  .top-container h2 {
-    font-size: 2.2rem;
-  }
-
-  .wave {
-    font-size: 1.3rem;
-    padding: 0 1.7rem;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .links a {
-    font-size: 0.9rem;
-    display: flex;
-    padding: 2.2rem;
-    justify-content: center;
-  }
-
-  .posters {
-    display: none;
-  }
-
-  .mob {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .mob img {
-    margin: 4rem 2rem;
-    max-width: 35%;
-    max-height: 100%;
-  }
-
-  .projects img {
-    width: 13%;
-  }
-
-  .code-img {
-    width: 13%;
-    margin: 1.8rem 1.8rem 1.8rem 0;
-  }
-
-  .paint-img {
-    width: 13%;
-    margin: 1.8rem 0 1.8rem 1.8rem;
-  }
-
-  .socials {
-    margin: 1rem 0;
-    display: block;
-  }
-
-  .socials img {
-    margin: 0.5rem;
-    padding: 0;
-    width: 1.8rem;
-  }
-
-  #progress-bar-container li .step-inner {
-    font-size: 0.7rem;
-  }
-
-  .mountain {
-    width: 60%;
-  }
-
-  .skill-row {
-    width: 60%;
-  }
-
-  .timeline-para {
-    width: 60%;
-    text-align: center;
-  }
-
-
-  .intro {
-    text-align: center;
-  }
-
-  .bottom-container {
-    padding: 1.125rem 0 1.25rem;
-    margin: 0;
-  }
-}
-
-@media (min-width: 1010px) and (max-width: 1500px){
+@media (max-width: 1500px){
 
   h1 {
     font-size: 3.8rem;
   }
 
   h2 {
-    font-size: 3.8rem;
+    font-size: 3.6rem;
   }
 
   h3 {
@@ -892,9 +470,7 @@ nav {
     font-size: 1.2rem;
   }
 
-
   .profile {
-    margin: 0 auto;
     max-width: 1140px;
   }
 
@@ -929,5 +505,264 @@ nav {
     margin: 4rem 2rem;
     max-width: 35%;
     max-height: 100%;
+  }
+}
+
+@media (max-width: 1010px) {
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3.3rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .kriz-image {
+    width: 38%;
+    margin: 2rem;
+    float: none;
+    border-radius: 12%;
+  }
+
+  hr {
+    margin: 4rem auto;
+    width: 9%;
+  }
+
+  .intro-head {
+    width: 70%;
+  }
+
+  .top-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .wave {
+    font-size: 1.3rem;
+    padding: 0 1.7rem;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links a {
+    font-size: 0.9rem;
+    display: flex;
+    padding: 2.2rem;
+    justify-content: center;
+  }
+
+  .projects img {
+    width: 13%;
+  }
+
+  .code-img {
+    width: 13%;
+    margin: 1.8rem 1.8rem 1.8rem 0;
+  }
+
+  .paint-img {
+    width: 13%;
+    margin: 1.8rem 0 1.8rem 1.8rem;
+  }
+
+  .socials {
+    margin: 1rem 0;
+    display: block;
+  }
+
+  .socials img {
+    margin: 0.5rem;
+    padding: 0;
+    width: 1.8rem;
+  }
+
+  #progress-bar-container li .step-inner {
+    font-size: 0.7rem;
+  }
+
+  .mountain {
+    width: 50%;
+  }
+
+  .skill-row {
+    width: 60%;
+  }
+
+  .timeline-para {
+    width: 60%;
+    text-align: center;
+  }
+
+  .intro {
+    width: 60%;
+    text-align: center;
+  }
+
+  .bottom-container {
+    padding: 1.125rem 0 1.25rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 3.3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .kriz-image {
+    width: 40%;
+    margin: 1.5rem auto;
+    border-radius: 8%;
+  }
+
+  hr {
+    width: 7%;
+  }
+
+  .intro-head {
+    width: 60%;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .intro {
+    width: 70%;
+  }
+
+  .contact-message {
+    width: 60%;
+  }
+
+  .top-container h2 {
+    font-size: 2rem;
+  }
+
+  .wave {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links a {
+    padding: 1.8rem;
+  }
+
+  .mob img {
+    max-width: 60%;
+  }
+
+  .projects img {
+    width: 22%;
+  }
+
+  .code-img {
+    width: 19%;
+    margin: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+  .paint-img {
+    float: left;
+    margin: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+  .socials img {
+    width: 1.5rem;
+  }
+
+  #progress-bar-container li .step-inner {
+    font-size: 0.6rem;
+  }
+
+  .skill-row {
+    width: 70%;
+  }
+
+  .timeline-para {
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 440px) {
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .kriz-image {
+    width: 50%;
+  }
+
+  .top-container h2 {
+    font-size: 2rem;
+  }
+
+  nav {
+    justify-content: space-evenly;
+  }
+
+  .links a {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    padding: 1.3rem;
+  }
+
+  .mob img {
+    margin: 4rem;
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+  }
+
+  #progress-bar-container li .step-inner {
+    font-size: 0.5rem;
+  }
+
+  .mountain {
+    width: 50%;
+  }
+
+  .btn {
+    font-size: 1rem;
   }
 }
