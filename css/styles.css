@@ -207,7 +207,7 @@ nav {
 /* Style the links inside the navigation bar */
 .links a {
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Itim', cursive;
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
@@ -388,8 +388,8 @@ nav {
 }
 
 #progress-content-section .section-content h2 {
-  font-family: 'Merriweather', serif;
-  font-size:17px;
+  font-family: 'Itim', serif;
+  font-size:18px;
   text-transform:uppercase;
   color: #151D3B;
   letter-spacing:1px;
