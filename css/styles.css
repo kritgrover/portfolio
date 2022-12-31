@@ -388,11 +388,11 @@ nav {
 }
 
 #progress-content-section .section-content h2 {
-  font-family: 'Itim', serif;
-  font-size:18px;
-  text-transform:uppercase;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 17px;
   color: #151D3B;
-  letter-spacing:1px;
+  letter-spacing: 1px;
 }
 
 #progress-content-section .section-content p {
