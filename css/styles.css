@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -803,10 +804,15 @@ nav {
 
   .skill-row {
     width: 70%;
+    margin-top: 3rem;
   }
 
   .timeline-para {
     width: 70%;
+  }
+
+  .middle-container {
+    margin-top: 4rem;
   }
 
   .btn {
@@ -858,6 +864,10 @@ nav {
 
   .mountain {
     width: 50%;
+  }
+
+  .skill-row {
+    margin-top: 3rem;
   }
 
   .btn {
