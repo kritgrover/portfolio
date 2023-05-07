@@ -20,6 +20,7 @@ h1 {
   font-size: 5rem;
   margin: 0 auto;
   font-family: 'Parisienne', cursive;
+  animation: fadeInDown 2s ease;
 }
 
 h2 {
@@ -31,6 +32,7 @@ h2 {
 
 .top-container h2 {
   font-size: 3rem;
+  animation: fadeInDown 2s ease;
 }
 
 h3 {
@@ -39,7 +41,7 @@ h3 {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-.wave {
+.wave p{
   color: #F7ECDE;
   font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
@@ -47,27 +49,15 @@ h3 {
   padding: 0 2rem;
   display: flex;
   position: relative;
+  animation: fadeIn 0.5s ease;
 }
 
-.wave span{
-  position: relative;
-  display: inline-block;
-  text-transform: uppercase;
-  animation: animate 1s ease-in-out;
-  animation-delay: calc(0.1s * var(--i));
-}
-
-@keyframes animate {
-  0% {
-    transform: translateY(0px);
-  }
-  20% {
-    transform: translateY(-20px);
-  }
-  40%, 100% {
-    transform: translateY(0px);
-  }
-}
+/*.wave span{*/
+/*  position: relative;*/
+/*  display: inline-block;*/
+/*  text-transform: uppercase;*/
+/*  animation: fadeIn 1s ease-in-out;*/
+/*}*/
 
 p {
   line-height: 2;
@@ -107,6 +97,7 @@ hr {
 
 .mountain {
   width: 33%;
+  animation: fadeIn 2s ease;
 }
 
 .pro {
@@ -115,7 +106,7 @@ hr {
 
 .intro-head{
   width: 50%;
-  margin: 3.125rem auto 1.25rem auto;
+  margin: 0 auto 1.25rem auto;
   text-align: left;
   display: inline-block;
 }
@@ -143,6 +134,7 @@ hr {
   position: absolute;
   left: 70%;
   top: 5%;
+  animation: backInRight 2.5s ease;
 }
 
 .bottom-cloud {
@@ -150,6 +142,7 @@ hr {
   position: absolute;
   left: 15%;
   top: 40%;
+  animation: backInLeft 2.5s ease;
 }
 
 .code-img {
@@ -189,7 +182,7 @@ hr {
   height: 30%;
   border-radius: 15%;
   float: left;
-  margin: 3rem 3rem 4rem 7rem;
+  margin: 0 3rem 4rem 7rem;
 }
 
 .footer-text {
@@ -204,6 +197,10 @@ nav {
   align-items: center;
 }
 
+.appear {
+  animation: fadeIn 1s ease;
+}
+
 /* Style the links inside the navigation bar */
 .links a {
   display: inline-block;
@@ -213,6 +210,7 @@ nav {
   text-decoration: none;
   font-size: 1rem;
   padding: 2.2rem 1.7rem;
+  animation: fadeIn 0.5s ease;
 }
 
 /* Change the color of links on hover */
@@ -228,6 +226,7 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 2rem;
+  animation: fadeIn 0.5s ease;
 }
 
 .socials img{
@@ -237,16 +236,6 @@ nav {
 
 .socials img:hover{
   animation:heart 1.5s linear;
-}
-
-@keyframes heart{
-  from{
-    transform:scale(1)
-  }
-
-  40%{
-    transform:scale(1.3)
-  }
 }
 
 .repo {
@@ -413,23 +402,23 @@ nav {
   display:block;
 }
 
-@keyframes FadeInUp {
-  0% {
-    transform:translateY(15px);
-    opacity:0;
-  }
-
-  100% {
-    transform:translateY(0px);
-    opacity:1;
-  }
-}
-
 .timeline-para {
   width: 50%;
   margin: 3rem auto;
   padding-bottom: 3rem;
   text-align: center;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .mob {
@@ -447,6 +436,104 @@ nav {
   margin: 3rem;
   max-width: 100%;
   max-height: 100%;
+}
+
+/*@keyframes animate {*/
+/*  0% {*/
+/*    transform: translateY(0px);*/
+/*  }*/
+/*  20% {*/
+/*    transform: translateY(-20px);*/
+/*  }*/
+/*  40%, 100% {*/
+/*    transform: translateY(0px);*/
+/*  }*/
+/*}*/
+
+@keyframes heart{
+  from{
+    transform:scale(1)
+  }
+
+  40%{
+    transform:scale(1.3)
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes FadeInUp {
+  0% {
+    transform:translateY(15px);
+    opacity:0;
+  }
+
+  100% {
+    transform:translateY(0px);
+    opacity:1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes backInLeft {
+  0% {
+    -webkit-transform: translateX(-2000px) scale(0.7);
+    transform: translateX(-2000px) scale(0.7);
+    opacity: 0.7;
+  }
+
+  80% {
+    -webkit-transform: translateX(0px) scale(0.7);
+    transform: translateX(0px) scale(0.7);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes backInRight {
+  0% {
+    -webkit-transform: translateX(2000px) scale(0.7);
+    transform: translateX(2000px) scale(0.7);
+    opacity: 0.7;
+  }
+
+  80% {
+    -webkit-transform: translateX(0px) scale(0.7);
+    transform: translateX(0px) scale(0.7);
+    opacity: 0.7;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1500px){
