@@ -74,7 +74,7 @@ hr {
   background-color: #F7ECDE;
   position: relative;
   padding-top: 5.25rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .middle-container {
