@@ -13,7 +13,7 @@ body {
   text-align: center;
   font-family: 'Itim', cursive;
   font-size: 1.2rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1 {
