@@ -4,7 +4,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
@@ -74,6 +73,7 @@ hr {
   background-color: #F7ECDE;
   position: relative;
   padding-top: 5.25rem;
+  overflow: hidden;
 }
 
 .middle-container {
