@@ -514,13 +514,24 @@ nav {
   margin: 1rem;
 }
 
+#foot-links {
+  max-width: 100%;
+  display: flex;
+}
+
 #foot-links a{
   color: #fff;
+  text-decoration: none;
+}
+
+#foot-links a:hover {
+  text-decoration: underline;
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 li {
@@ -959,5 +970,9 @@ li {
 
   .btn {
     font-size: 1rem;
+  }
+
+  li{
+    margin: 1rem;
   }
 }
