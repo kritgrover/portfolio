@@ -528,13 +528,13 @@ nav {
   text-decoration: underline;
 }
 
-ul {
+#foot-links ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-li {
+#foot-links li {
   margin: 0 2rem;
 }
 /*@keyframes animate {*/
@@ -972,7 +972,7 @@ li {
     font-size: 1rem;
   }
 
-  li{
+  #foot-links li{
     margin: 1rem;
   }
 }
