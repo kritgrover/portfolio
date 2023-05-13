@@ -59,6 +59,10 @@ h3 {
   animation: fadeIn 1s ease;
 }
 
+.wave a{
+  text-decoration: none;
+}
+
 p {
   line-height: 2;
 }
@@ -440,6 +444,88 @@ nav {
   max-height: 100%;
 }
 
+.tech-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.flip-card {
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 3px 10px #a17a69;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  border-radius: 0.8rem;
+  transform: rotateY(180deg);
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.first-set, .second-set, .third-set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#foot-links a{
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 2rem;
+}
 /*@keyframes animate {*/
 /*  0% {*/
 /*    transform: translateY(0px);*/
